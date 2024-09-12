@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,200;1,14..32,200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #00002b;
+    font-family: 'Inter', sans-serif;
+}
+
+#container{
+    display: grid;
+    grid-template-areas: 
+    '.fotoperfil .fotologo'
+    'ola logo';
+}
+
+.item{
+    background-color: aliceblue;
+    padding: 34px;
+    margin: 20px;
+}
+
+.fotoperfil img{
+    width: 100%;
+}
+
+.fotoperfil img{
+    width: 600px;
+}
